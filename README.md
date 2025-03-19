@@ -1,5 +1,5 @@
 # chatbot
-/* Frontend: React.js Mental Health Chatbot */
+/* Frontend: React.js Medical Chatbot */
 
 import React, { useState } from "react";
 import axios from "axios";
@@ -26,7 +26,7 @@ const Chatbot = () => {
 
   return (
     <div className="chat-container">
-      <h2>Mental Health AI Chatbot</h2>
+      <h2>Medical AI Chatbot</h2>
       <div className="chat-box">
         {responses.map((msg, index) => (
           <p key={index} className={msg.role === "user" ? "user" : "bot"}>
