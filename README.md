@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import "./styles/App.css"; // Updated path to correctly locate App.css
+import "style.css"; // Updated path to correctly locate App.css
 
 const Chatbot = () => {
   const [message, setMessage] = useState("");
